@@ -10,6 +10,7 @@ COPY . .
 
 RUN yarn build
 
+ENV PORT=5005
 EXPOSE 5005
 
 CMD ["yarn", "start"]
